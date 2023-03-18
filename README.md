@@ -4,7 +4,7 @@ Accept URLs on stdin, replace all query string values with a user-supplied value
 This tool is inspired by the qsreplace tool created by @tomnomnom. QuerySmith accepts URLs on stdin, replaces all query string values with a user-supplied value. It does not encode special characters in the user-supplied value. This means that if you include special characters like "?", "&", and "=" in the user-supplied value, they will not be URL encoded in the output.
 
 # Install QuerySmith
-` go install github.com/MayurUdiniya/QuerySmith `
+` go install github.com/MayurUdiniya/QuerySmith@latest `
 
 # Some Example Usage
 ```
